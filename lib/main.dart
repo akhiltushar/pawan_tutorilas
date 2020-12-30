@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
   void _changeText() {
     setState(() {
       if (mytext.startsWith("H")) {
-        mytext = "Wellcome to my app";
+        mytext = "Wellcome to app";
       } else {
         mytext = "Hello User";
       }
